@@ -1,5 +1,10 @@
 import React from "react";
+import "./homepage.styles.scss";
 
-const Homepage = () => <h1 className="homepage">HOME PAGE</h1>;
+const Homepage = () => (
+  <div className="homepage">
+    <h1>Home Page</h1>
+  </div>
+);
 
 export default Homepage;
