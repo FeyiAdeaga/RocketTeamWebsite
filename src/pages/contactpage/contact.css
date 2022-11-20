@@ -1,4 +1,5 @@
 .contactpage{
+
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -6,6 +7,8 @@
 }
 
 .contact-title{
+    font-size: 7vh;
+    color: white;
     background: url("../../static/images/background.jpg");
     justify-content: center;
     width: 100%;
