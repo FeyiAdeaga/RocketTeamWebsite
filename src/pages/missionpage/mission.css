@@ -1,0 +1,59 @@
+@import "react-slideshow-image/dist/styles.css";
+.our-mission {
+    background: url("https://fiskrocketteamdotcom.files.wordpress.com/2021/10/cropped-fisk-swirls.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-size: 10vh;
+}
+
+.mission-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #415185;
+    padding: 9vh;
+    
+}
+.rocket-img{
+    width: 60vw;
+}
+.mission-statement{
+    width: 60vw;
+    color: white;
+    font-size: 2vh;
+}
+.our-purpose{
+    display: flex;
+    width: 60vw;
+    color: white;
+    font-size: 7vh;
+}
+
+.list{
+    padding: 2vh;
+    color: white;
+    width: 60vw;
+    font-size: 2vh;
+}
+
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+  }
+  
+  .each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
