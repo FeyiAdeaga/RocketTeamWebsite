@@ -1,8 +1,100 @@
-.homepage {
-  background: url("../../static/images/home-img.webp");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+.home {
+  background: url("https://fiskrocketteamdotcom.files.wordpress.com/2021/10/cropped-fisk-swirls.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
+  color: white;
+  font-size: 10vh;
+}
+.learn-more{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: blue;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+  padding: 3vh ;
+}
+
+.learn-more-button{
+  background-color: #222222;
+  padding: 1vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  transition-duration: 0.5s;
+  
+  color: #F3CE5C!important;
+  margin-bottom: 10vh;
+
+}
+
+.learn-more-button:hover{
+  cursor:pointer;
+  // opacity: 0.5;
+  background-color: rgba(34, 34, 34, 0.5);
+}
+
+.welcome{
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+  font-size: 4vh;
+  font-weight: 500;
+}
+
+.subscribe{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10vh;
+}
+.email-area{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-field{
+  padding:  1vw;
+  height: 6vh;
+  width: 26vw;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.subscribe-button{
+  display: flex;
+  align-items: center;
+  background-color: #222222;
+  height: 6vh;
+  margin: 2vh;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0px 18px;
+  font-weight: bold;
+  font-size: 1.5vh;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-duration: 0.5s;
+}
+
+.subscribe-button:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.get-new-content{
+  margin-left: 2vw;
+  font-size: 4vh;
+  width: 50vw;
 }
