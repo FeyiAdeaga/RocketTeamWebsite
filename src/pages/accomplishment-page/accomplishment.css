@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&display=swap');
+
+.accomplishments{
+    background: url("https://fiskrocketteamdotcom.files.wordpress.com/2021/10/cropped-fisk-swirls.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-size: 10vh;
+    margin-bottom: 10vh;
+}
+
+.header{
+    color: white;
+    background-color: #f5ba00;
+    padding: 5vh;
+    font-size: 4vh;
+    margin-bottom: 3vh;
+}
+.list{
+    width: 100%;
+    color: white;
+    background-color: #f5ba00;
+    padding: 5vh;
+    font-size: 1.7vh;
+}
+
+.picture-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    padding: 1vh;
+    background-color: rgb(226,245,255);
+    width: 33.3%;
+    border: solid 3px white;
+}
+.img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.footer{
+    background-color: #415185;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+
+.future{
+    background: url("https://fiskrocketteamdotcom.files.wordpress.com/2021/10/giphy-rocket.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10vh;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 10vh;
+}
+
+.title{
+    font-size: 8vh;
+    margin-bottom: 5vh;
+}
+.divider{
+    width: 100%;
+    height: 1px;
+    border: 2px solid white;
+}
+
+.future-text{
+    font-size: 3vh;
+    padding: 1vh;
+}
